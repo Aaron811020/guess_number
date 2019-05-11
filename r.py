@@ -1,8 +1,9 @@
 import random
 
-r = random.randint(1,100)
-min_num = 1;
-max_num = 100;
+min_num = int(input('輸入猜數字最小值: '))
+max_num = int(input('輸入猜數字最大值: '))
+
+r = random.randint(min_num, max_num)
 count = 0;
 
 while True:
